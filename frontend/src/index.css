@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Cyber-security dark theme */
+    --background: 220 25% 8%;
+    --foreground: 210 40% 98%;
+
+    --card: 220 20% 12%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 220 20% 10%;
+    --popover-foreground: 210 40% 98%;
+
+    /* Electric cyan primary */
+    --primary: 189 94% 43%;
+    --primary-foreground: 220 25% 8%;
+
+    /* Deep purple secondary */
+    --secondary: 262 52% 47%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 220 15% 18%;
+    --muted-foreground: 215 15% 65%;
+
+    --accent: 262 52% 47%;
+    --accent-foreground: 210 40% 98%;
+
+    /* Risk level colors */
+    --success: 142 76% 36%;
+    --success-foreground: 210 40% 98%;
+
+    --warning: 38 92% 50%;
+    --warning-foreground: 220 25% 8%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 20% 20%;
+    --input: 220 20% 16%;
+    --ring: 189 94% 43%;
+
+    --radius: 0.75rem;
+
+    /* Glow effects */
+    --glow-primary: 189 94% 43%;
+    --glow-secondary: 262 52% 47%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}

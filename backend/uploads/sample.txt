@@ -1,0 +1,12 @@
+2025-11-19 12:45:21 INFO Accepted connection from 8.8.8.8:57642
+2025-11-19 12:46:01 ERROR Failed login for admin from 45.130.137.54
+2025-11-19 12:51:30 WARNING Detected unusual traffic from 185.220.101.1 on port 443
+2025-11-19 12:52:09 LOGIN user=bob IP=103.27.124.119 status=success
+2025-11-19 12:55:24 INFO Connection closed for 172.104.47.150:51820
+2025-11-19 13:00:08 CRITICAL Blocklisted IP detected: 178.89.159.41
+2025-11-19 13:07:33 INFO GET /api/data 200 192.168.0.102
+2025-11-19 13:10:45 INFO SSH session for root from 127.0.0.1 accepted
+2025-11-19 13:13:27 ALERT Detected Tor exit node activity from 185.220.101.1
+2025-11-19 13:18:49 Proxy attempt: 45.130.137.54:8080
+2025-11-19 13:20:20 INFO Request from 10.0.0.5:33445 to /metrics
+2025-11-19 13:22:04 Port scan detected from 185.220.101.1 targeting port 22

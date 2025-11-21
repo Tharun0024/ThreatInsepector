@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pandas
+numpy
+scikit-learn
+aiohttp
+python-dotenv
+geoip2
+joblib
+requests
+python-multipart
