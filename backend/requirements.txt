@@ -9,3 +9,5 @@ geoip2
 joblib
 requests
 python-multipart
+pydantic          # Needed by FastAPI and strict typing
+httpx             # Async HTTP client, optional but common in FastAPI

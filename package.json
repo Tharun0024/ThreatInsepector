@@ -1,7 +1,12 @@
 {
   "dependencies": {
-    "html2canvas": "^1.4.1",
-    "jspdf": "^3.0.4",
-    "jspdf-autotable": "^5.0.2"
+    "react": "^18.x",
+    "react-dom": "^18.x",
+    "react-scripts": "^5.x",       // or your build tool, e.g., Vite
+    "tailwindcss": "^3.x",
+    "chart.js": "^4.x",            // or whichever recent version you need
+    "lucide-react": "^0.296.0",    // or latest
+    "jspdf": "^2.x",
+    "html2canvas": "^1.x"
   }
 }
