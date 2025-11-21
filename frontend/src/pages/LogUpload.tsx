@@ -7,8 +7,8 @@ import { toast } from "sonner";
 import IPTable from "@/components/IPTable";
 import axios from "axios";
 
-const API_BASE = "http://localhost:8000";
-
+const API_BASE = "https://threatinsepector-2.onrender.com";
+//http://localhost:8000
 const LogUpload = () => {
   const navigate = useNavigate();
   const fileInputRef = useRef<HTMLInputElement>(null);

@@ -15,7 +15,8 @@ import { Shield, Search, FileText, Menu } from "lucide-react";
 import { toast } from "sonner";
 import axios from "axios";
 
-const API_BASE = "http://localhost:8000";
+const API_BASE = "https://threatinsepector-2.onrender.com";
+//http://localhost:8000
 
 const Index = () => {
   const navigate = useNavigate();
